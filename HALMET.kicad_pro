@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.1,
-          "width": 1.1
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -59,24 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|172122999|93875000|00000000-0000-0000-0000-00005f907676|eae305e2-3922-47b0-80c5-194d7e7bcd38",
-          ""
-        ],
-        [
-          "courtyards_overlap|172122999|95775000|00000000-0000-0000-0000-00005f907676|b866eadd-668d-4578-bc96-daca0bbdbc63",
-          ""
-        ],
-        [
-          "courtyards_overlap|172122999|98309000|00000000-0000-0000-0000-00005f907676|00000000-0000-0000-0000-00005fb555a8",
-          ""
-        ],
-        [
-          "courtyards_overlap|172775000|92955000|00000000-0000-0000-0000-00005f907676|00000000-0000-0000-0000-00005f91bf81",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -163,7 +146,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -551,7 +534,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../HALMET-test-jig/hardware/HALMET-device.step",
+      "step": "../HALMET-test-jig/hardware/Bluefin-device.step",
       "svg": "",
       "vrml": ""
     },
@@ -675,7 +658,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,

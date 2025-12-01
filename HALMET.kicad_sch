@@ -268,6 +268,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 35.56) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764c1477-ae39-413f-8d78-7d8b5f4c2291")
+	)
+	(wire
+		(pts
 			(xy 59.69 114.3) (xy 57.15 114.3)
 		)
 		(stroke
@@ -345,6 +355,16 @@
 			(type default)
 		)
 		(uuid "adf2be76-dcc7-4dcc-947a-fbbb9e330180")
+	)
+	(wire
+		(pts
+			(xy 156.21 97.79) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03fda8d-861b-40ae-8db6-33baabf3a8d2")
 	)
 	(wire
 		(pts
@@ -555,6 +575,16 @@
 			(justify left bottom)
 		)
 		(uuid "32d2cb03-4104-40ea-b61d-8d62481a10a6")
+	)
+	(label "MHU_VSUP"
+		(at 59.69 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f8e15c5-2001-47af-b2da-867fd10a41aa")
 	)
 	(label "LED"
 		(at 59.69 107.95 0)
@@ -876,6 +906,16 @@
 		)
 		(uuid "ed447ec6-5eea-436f-a81d-82e4ab0a95ff")
 	)
+	(label "MHU_VSUP"
+		(at 158.75 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f569622b-a2e8-4e25-a424-37df29cda1f6")
+	)
 	(label "DI2"
 		(at 158.75 83.82 0)
 		(effects
@@ -933,6 +973,16 @@
 		(pin "CAN_L" bidirectional
 			(at 57.15 30.48 0)
 			(uuid "d5f9796b-b110-4dac-a9d3-d55b981f9c01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MHU_VSUP" output
+			(at 57.15 35.56 0)
+			(uuid "ea04bb8d-b597-425f-9ef9-b3f29b5156c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,6 +1505,16 @@
 		(pin "DI3" input
 			(at 156.21 87.63 0)
 			(uuid "0be1815f-054c-4460-84a6-295da4fb75b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MHU_VSUP" input
+			(at 156.21 97.79 0)
+			(uuid "61b82e43-dc9e-4e97-90e8-7fe258c5811a")
 			(effects
 				(font
 					(size 1.27 1.27)

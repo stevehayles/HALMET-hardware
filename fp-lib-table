@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "HALMET")(type "KiCad")(uri "${KIPRJMOD}/HALMET.pretty")(options "")(descr ""))
   (lib (name "BLUEFIN")(type "KiCad")(uri "${KIPRJMOD}/BLUEFIN.pretty")(options "")(descr ""))
+  (lib (name "PSM712-LF-T7")(type "KiCad")(uri "C:/Users/steve/Dropbox/51 North/Projects/Bluefin/Hardware/Symbols/PSM712-LF-T7/footprints.pretty")(options "")(descr ""))
+  (lib (name "1206L010_60WR")(type "KiCad")(uri "C:/Users/steve/Dropbox/51 North/Projects/Bluefin/Hardware/Symbols/1206L010_60WR/footprints.pretty")(options "")(descr ""))
 )

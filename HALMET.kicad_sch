@@ -68,7 +68,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 86.36) (xy 233.68 86.36)
+			(xy 236.22 95.25) (xy 234.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -148,6 +148,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 91.44) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d1f1fd-562e-43f8-997f-9c520e00b46b")
+	)
+	(wire
+		(pts
 			(xy 222.25 114.3) (xy 236.22 114.3)
 		)
 		(stroke
@@ -158,7 +168,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 58.42) (xy 233.68 58.42)
+			(xy 236.22 77.47) (xy 233.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -258,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 62.23) (xy 233.68 62.23)
+			(xy 236.22 81.28) (xy 233.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -288,7 +298,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 41.91) (xy 236.22 41.91)
+			(xy 233.68 38.1) (xy 236.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -315,6 +325,46 @@
 			(type default)
 		)
 		(uuid "87a79166-ab2d-4a4e-9e72-0ced69ed1710")
+	)
+	(wire
+		(pts
+			(xy 158.75 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88581626-cd95-4f44-9f2b-56c325c3897c")
+	)
+	(wire
+		(pts
+			(xy 158.75 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf3c389-fc34-4615-897c-e9647779da11")
+	)
+	(wire
+		(pts
+			(xy 156.21 107.95) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c44e469-a219-49a0-9f27-4baeffd8873a")
+	)
+	(wire
+		(pts
+			(xy 233.68 49.53) (xy 236.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998adb04-94b8-41c7-94d2-bcb37c2a637f")
 	)
 	(wire
 		(pts
@@ -348,7 +398,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 39.37) (xy 236.22 39.37)
+			(xy 233.68 35.56) (xy 236.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -358,13 +408,33 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 158.75 97.79)
+			(xy 233.68 46.99) (xy 236.22 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b03fda8d-861b-40ae-8db6-33baabf3a8d2")
+		(uuid "bc6d77bb-b887-4f74-9f3b-d42074c0cc31")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 156.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e2dc71-baaf-41ef-9625-f919de073bf7")
+	)
+	(wire
+		(pts
+			(xy 233.68 54.61) (xy 236.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7439fd-4c26-4213-8953-469263630b0b")
 	)
 	(wire
 		(pts
@@ -418,6 +488,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 52.07) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3040a6-09ee-40e3-ae91-76893070fff9")
+	)
+	(wire
+		(pts
+			(xy 233.68 44.45) (xy 236.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df97f71c-813c-4b65-9e88-5ab5f82915a3")
+	)
+	(wire
+		(pts
 			(xy 207.01 116.84) (xy 204.47 116.84)
 		)
 		(stroke
@@ -445,6 +535,16 @@
 			(type default)
 		)
 		(uuid "e4a4bcb6-4dbb-4360-b0f6-c6bf219550e9")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c8e193-e1de-4756-b39f-86ffd21b6fa3")
 	)
 	(wire
 		(pts
@@ -507,7 +607,7 @@
 		(uuid "fb39cab1-c53e-4c8f-8335-c1dbeeeb79a9")
 	)
 	(label "CAN_RX"
-		(at 233.68 39.37 180)
+		(at 233.68 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -515,6 +615,16 @@
 			(justify right bottom)
 		)
 		(uuid "02294e53-b711-4100-93a4-0d4f878cefc7")
+	)
+	(label "UART1_TX"
+		(at 158.75 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ad1afe0-3bae-4b26-afea-bf1d4ad7d85e")
 	)
 	(label "RESET_KEY"
 		(at 59.69 100.33 0)
@@ -525,6 +635,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d9bd421-f578-42e5-a943-f7a9f28d22e0")
+	)
+	(label "RS485_1_A"
+		(at 233.68 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dbfa411-7811-48c0-868d-3c9add5d554a")
 	)
 	(label "USB_RXD"
 		(at 119.38 54.61 180)
@@ -557,7 +677,7 @@
 		(uuid "26058f52-d45f-4428-9704-c34add83f8f0")
 	)
 	(label "SCL"
-		(at 233.68 62.23 180)
+		(at 233.68 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -565,6 +685,16 @@
 			(justify right bottom)
 		)
 		(uuid "2959642b-0efd-4e0b-9906-0bb1534e765f")
+	)
+	(label "RS485_1_B"
+		(at 158.75 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fb1b7fe-618e-4ccd-ba34-a3a5aa4a4be8")
 	)
 	(label "CAN_H"
 		(at 59.69 27.94 0)
@@ -576,6 +706,16 @@
 		)
 		(uuid "32d2cb03-4104-40ea-b61d-8d62481a10a6")
 	)
+	(label "UART1_RX"
+		(at 158.75 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39b6176b-2d7b-4833-a859-c20c2541d473")
+	)
 	(label "MHU_VSUP"
 		(at 59.69 35.56 0)
 		(effects
@@ -585,6 +725,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f8e15c5-2001-47af-b2da-867fd10a41aa")
+	)
+	(label "I-O_RS485"
+		(at 233.68 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44073260-bd37-484e-93dc-80e8cdfed8ef")
 	)
 	(label "LED"
 		(at 59.69 107.95 0)
@@ -605,6 +755,16 @@
 			(justify right bottom)
 		)
 		(uuid "48440b1f-c910-48b8-a3ed-12b5e161fdc0")
+	)
+	(label "UART1_RX"
+		(at 233.68 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55774b4d-5265-4b21-9ba4-66ab5c22c306")
 	)
 	(label "SCL"
 		(at 204.47 114.3 180)
@@ -676,6 +836,16 @@
 		)
 		(uuid "7671ef0a-74fa-4c1a-be21-278b946aa1ca")
 	)
+	(label "I-O_RS485"
+		(at 158.75 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7769a9fe-bab3-4851-94b9-586137d7e6cc")
+	)
 	(label "RESET_KEY"
 		(at 119.38 66.04 180)
 		(effects
@@ -707,7 +877,7 @@
 		(uuid "81a92410-039b-4a9d-970c-73db48ecd3fe")
 	)
 	(label "SDA"
-		(at 233.68 58.42 180)
+		(at 233.68 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -727,7 +897,7 @@
 		(uuid "875733c9-19b4-4cef-94f9-96e24a545685")
 	)
 	(label "DQ"
-		(at 233.68 86.36 180)
+		(at 234.95 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -747,7 +917,7 @@
 		(uuid "91a6fff7-fe6a-4062-b3d1-93d0d31e40ac")
 	)
 	(label "CAN_TX"
-		(at 233.68 41.91 180)
+		(at 233.68 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -755,6 +925,16 @@
 			(justify right bottom)
 		)
 		(uuid "925fa3bd-ac5d-4407-ad17-0df3d3ba9918")
+	)
+	(label "RS485_1_B"
+		(at 233.68 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96a1aadd-e908-4eee-9fdf-1d5fd5476c32")
 	)
 	(label "DI1"
 		(at 158.75 80.01 0)
@@ -815,6 +995,16 @@
 			(justify left bottom)
 		)
 		(uuid "afc9c223-9fa6-4924-92fb-fd8b4bccc915")
+	)
+	(label "UART1_TX"
+		(at 233.68 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b171e86c-0070-49ee-889c-090fc398d246")
 	)
 	(label "CAN_H"
 		(at 233.68 26.67 180)
@@ -906,13 +1096,23 @@
 		)
 		(uuid "ed447ec6-5eea-436f-a81d-82e4ab0a95ff")
 	)
-	(label "MHU_VSUP"
-		(at 158.75 97.79 0)
+	(label "RS485_1_A"
+		(at 158.75 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "ef2d6365-c80b-4e89-8d65-4a161e61386a")
+	)
+	(label "MHU_VSUP"
+		(at 119.38 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "f569622b-a2e8-4e25-a424-37df29cda1f6")
 	)
@@ -1000,7 +1200,7 @@
 	)
 	(sheet
 		(at 236.22 24.13)
-		(size 31.75 21.59)
+		(size 31.75 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1014,7 +1214,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-00005f733ba4")
-		(property "Sheetname" "CAN bus"
+		(property "Sheetname" "Serial"
 			(at 236.22 23.4184 0)
 			(effects
 				(font
@@ -1023,8 +1223,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "canbus.kicad_sch"
-			(at 236.22 46.3046 0)
+		(property "Sheetfile" "serial.kicad_sch"
+			(at 236.22 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1233,7 @@
 			)
 		)
 		(pin "CAN_RX" output
-			(at 236.22 39.37 180)
+			(at 236.22 35.56 180)
 			(uuid "50ab88b1-1133-4135-8029-f8d5c9a68ad2")
 			(effects
 				(font
@@ -1043,7 +1243,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 236.22 41.91 180)
+			(at 236.22 38.1 180)
 			(uuid "adf7308c-4daa-4dc0-aa43-cd8f342c0acd")
 			(effects
 				(font
@@ -1065,6 +1265,56 @@
 		(pin "CAN_L" bidirectional
 			(at 236.22 29.21 180)
 			(uuid "b57d24f4-e21d-4d3a-92e5-767f79b3f7fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I-O_RS485" input
+			(at 236.22 44.45 180)
+			(uuid "ec1d91c9-445b-48fe-a8a6-0bdb0a8f3bb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_1_A" bidirectional
+			(at 236.22 46.99 180)
+			(uuid "0d23bec7-9cd3-4f3f-8ed9-06599c7bcbd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_1_B" bidirectional
+			(at 236.22 49.53 180)
+			(uuid "5978db24-7770-4bdd-abbc-042e9b993f0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1_RX" output
+			(at 236.22 52.07 180)
+			(uuid "7b2d6bab-0787-41ba-9e16-4a604abe38b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1_TX" input
+			(at 236.22 54.61 180)
+			(uuid "ad83e6f7-f494-43ca-ad96-0e5d62fc3019")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,8 +1413,8 @@
 		)
 	)
 	(sheet
-		(at 236.22 54.61)
-		(size 31.75 19.05)
+		(at 236.22 73.66)
+		(size 31.75 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1179,7 +1429,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005f9be197")
 		(property "Sheetname" "I2C"
-			(at 236.22 53.8984 0)
+			(at 236.22 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1438,7 @@
 			)
 		)
 		(property "Sheetfile" "I2C.kicad_sch"
-			(at 236.22 74.2446 0)
+			(at 236.22 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1447,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 236.22 58.42 180)
+			(at 236.22 77.47 180)
 			(uuid "5fffc2eb-3da3-48ef-81cb-7357033941ee")
 			(effects
 				(font
@@ -1207,7 +1457,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 236.22 62.23 180)
+			(at 236.22 81.28 180)
 			(uuid "73a40e82-ce30-4a3c-9394-979c2e256f22")
 			(effects
 				(font
@@ -1225,8 +1475,8 @@
 		)
 	)
 	(sheet
-		(at 236.22 82.55)
-		(size 31.75 19.05)
+		(at 236.22 92.71)
+		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1241,7 +1491,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005faef03b")
 		(property "Sheetname" "Onewire"
-			(at 236.22 81.8384 0)
+			(at 236.22 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1500,7 @@
 			)
 		)
 		(property "Sheetfile" "onewire.kicad_sch"
-			(at 236.22 102.1846 0)
+			(at 236.22 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1509,7 @@
 			)
 		)
 		(pin "DQ" input
-			(at 236.22 86.36 180)
+			(at 236.22 95.25 180)
 			(uuid "93024b80-7613-4c9b-bff2-0314afcbe951")
 			(effects
 				(font
@@ -1320,7 +1570,7 @@
 	)
 	(sheet
 		(at 121.92 45.72)
-		(size 34.29 63.5)
+		(size 34.29 68.58)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1344,7 +1594,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 121.92 109.8046 0)
+			(at 121.92 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,8 +1763,58 @@
 			)
 		)
 		(pin "MHU_VSUP" input
-			(at 156.21 97.79 0)
+			(at 121.92 91.44 180)
 			(uuid "61b82e43-dc9e-4e97-90e8-7fe258c5811a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I-O_RS485" output
+			(at 156.21 96.52 0)
+			(uuid "82813efb-bdc6-45f6-b430-0de838609ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_RX" input
+			(at 156.21 100.33 0)
+			(uuid "73eddf51-a94c-45fd-a275-ff078ab0425e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_TX" output
+			(at 156.21 104.14 0)
+			(uuid "421c81b8-f18e-4234-a4e4-3e410e02c58a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_1_A" bidirectional
+			(at 156.21 107.95 0)
+			(uuid "55feb1cc-7aa5-43ed-8b23-341b5e054353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_1_B" bidirectional
+			(at 156.21 111.76 0)
+			(uuid "b5352143-bf4d-4925-a4d4-577bafdaf31e")
 			(effects
 				(font
 					(size 1.27 1.27)

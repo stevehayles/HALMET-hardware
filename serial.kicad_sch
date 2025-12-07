@@ -3071,7 +3071,7 @@
 		)
 		(uuid "47d37f25-bce8-4c37-a4eb-15ec09e56d0d")
 	)
-	(hierarchical_label "UART1_TX"
+	(hierarchical_label "RS485_RX"
 		(shape input)
 		(at 111.76 67.31 180)
 		(effects
@@ -3104,7 +3104,7 @@
 		)
 		(uuid "c037b4ee-48b4-4330-8efe-6b424186aa61")
 	)
-	(hierarchical_label "UART1_RX"
+	(hierarchical_label "RS485_TX"
 		(shape output)
 		(at 111.76 57.15 180)
 		(effects

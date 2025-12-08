@@ -2725,6 +2725,17 @@
 		)
 		(uuid "9d4bcd38-9519-4ef1-9e36-41aa99554d24")
 	)
+	(text "The voltage regulator for the MHU supply is controlled by\nresistors R1 and R2 either side of ADJ to VO and GND. \n\n			R1		R2		Vout	Stability Note\nNo Jumper:	240		1K		6.51 V	>=9.0 V input for stability.\nJumper:		240		729		5.09 V	Stable down to ~7.6 V.\n\nR2 Equivalent Resistance Calculation (Jumper connected)\n\n(1000 * 2700) / (1000 + 2700) = 729.73"
+		(exclude_from_sim no)
+		(at 200.66 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eae68fba-6897-436e-a49f-d3adfc45a524")
+	)
 	(text "Prevent feeding Vin to USB"
 		(exclude_from_sim no)
 		(at 35.56 92.71 0)

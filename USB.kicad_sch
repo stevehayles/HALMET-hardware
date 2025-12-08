@@ -3490,7 +3490,7 @@
 		(uuid "381d5611-7a99-4c0d-8dd5-41fe2d1351cb")
 	)
 	(hierarchical_label "TXD"
-		(shape input)
+		(shape output)
 		(at 62.23 116.84 0)
 		(effects
 			(font

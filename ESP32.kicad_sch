@@ -3815,7 +3815,7 @@
 		)
 		(uuid "30b9fc25-70d0-4f49-87e8-b2653e234c64")
 	)
-	(hierarchical_label "RS485_RX"
+	(hierarchical_label "UART1_TX"
 		(shape output)
 		(at 78.74 48.26 0)
 		(effects
@@ -3892,7 +3892,7 @@
 		)
 		(uuid "772d22d6-9490-4c20-8580-c57f72d83408")
 	)
-	(hierarchical_label "RS485_TX"
+	(hierarchical_label "UART1_RX"
 		(shape input)
 		(at 78.74 50.8 0)
 		(effects
@@ -4046,7 +4046,7 @@
 		)
 		(uuid "e25a2e2c-14ee-448e-a575-82c41796bd7e")
 	)
-	(hierarchical_label "USB_UART_RXD"
+	(hierarchical_label "UART0_TX"
 		(shape output)
 		(at 78.74 43.18 0)
 		(effects
@@ -4057,7 +4057,7 @@
 		)
 		(uuid "e5ad49ee-8294-4695-8dda-6ba4aae57d5c")
 	)
-	(hierarchical_label "USB_UART_TXD"
+	(hierarchical_label "UART0_RX"
 		(shape input)
 		(at 78.74 45.72 0)
 		(effects

@@ -2722,7 +2722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "75R"
 			(at 127.508 37.973 0)
 			(effects
 				(font
@@ -2757,7 +2757,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25133"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -3093,7 +3093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "240R"
 			(at 141.478 37.973 0)
 			(effects
 				(font
@@ -3128,7 +3128,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25094"
 			(at 139.7 36.83 0)
 			(effects
 				(font

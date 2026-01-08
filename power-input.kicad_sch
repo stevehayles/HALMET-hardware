@@ -5,13 +5,14 @@
 	(uuid "cab40ddc-7a21-41bd-ad39-336e20634e9d")
 	(paper "A4")
 	(title_block
-		(title "Hat Labs Marine Engine & Tank interface (HALMET)")
-		(date "2024-01-18")
-		(rev "1.0.1")
-		(company "Hat Labs Ltd")
-		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
-		(comment 2 "To view a copy of this license, visit ")
-		(comment 3 "HALMET is licensed under CC BY-SA 4.0.")
+		(title "Bluefin Marine Processor")
+		(date "2026-01-08")
+		(rev "1.0.0")
+		(company "Fifty One North Limited")
+		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0/")
+		(comment 2 "Bluefin is licensed under CC BY-SA 4.0")
+		(comment 3 "Modifications © 2026 Fiftyone North Ltd.")
+		(comment 4 "Based on an original design by Hat Labs Ltd.")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -2724,6 +2725,17 @@
 			(justify left bottom)
 		)
 		(uuid "9d4bcd38-9519-4ef1-9e36-41aa99554d24")
+	)
+	(text "The voltage regulator for the MHU supply is controlled by\nresistors R1 and R2 either side of ADJ to VO and GND. \n\n			R1		R2		Vout	Stability Note\nNo Jumper:	240		1K		6.51 V	>=9.0 V input for stability.\nJumper:		240		729		5.09 V	Stable down to ~7.6 V.\n\nR2 Equivalent Resistance Calculation (Jumper connected)\n\n(1000 * 2700) / (1000 + 2700) = 729.73"
+		(exclude_from_sim no)
+		(at 200.66 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eae68fba-6897-436e-a49f-d3adfc45a524")
 	)
 	(text "Prevent feeding Vin to USB"
 		(exclude_from_sim no)
@@ -6097,7 +6109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -6124,7 +6136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36499287"
+		(property "LCSC" "C541856"
 			(at 238.76 74.93 90)
 			(effects
 				(font

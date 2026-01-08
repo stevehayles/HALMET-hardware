@@ -25,3 +25,7 @@ fp-info-cache
 
 *.DS_Store
 
+
+~HALMET.kicad_pcb.lck
+
+~HALMET.kicad_sch.lck

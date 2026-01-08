@@ -5,13 +5,14 @@
 	(uuid "407ad327-e5c0-4c58-9460-efcf6f3c38b8")
 	(paper "A4")
 	(title_block
-		(title "Hat Labs Marine Engine & Tank interface (HALMET)")
-		(date "2024-01-18")
-		(rev "1.0.1")
-		(company "Hat Labs Ltd")
-		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
-		(comment 2 "To view a copy of this license, visit ")
-		(comment 3 "HALMET is licensed under CC BY-SA 4.0.")
+		(title "Bluefin Marine Processor")
+		(date "2026-01-08")
+		(rev "1.0.0")
+		(company "Fifty One North Limited")
+		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0/")
+		(comment 2 "Bluefin is licensed under CC BY-SA 4.0")
+		(comment 3 "Modifications © 2026 Fiftyone North Ltd.")
+		(comment 4 "Based on an original design by Hat Labs Ltd.")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -2722,7 +2723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "75R"
 			(at 127.508 37.973 0)
 			(effects
 				(font
@@ -2757,7 +2758,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25133"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -2957,7 +2958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 114.3 48.26 0)
 			(effects
 				(font
@@ -2984,7 +2985,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36499287"
+		(property "LCSC" "C541857"
 			(at 114.3 48.26 0)
 			(effects
 				(font
@@ -3093,7 +3094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "240R"
 			(at 141.478 37.973 0)
 			(effects
 				(font
@@ -3128,7 +3129,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25094"
 			(at 139.7 36.83 0)
 			(effects
 				(font

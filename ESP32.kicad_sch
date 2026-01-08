@@ -5,13 +5,14 @@
 	(uuid "38e4214c-aaa2-4670-93e0-93b16751d7af")
 	(paper "A4")
 	(title_block
-		(title "Hat Labs Marine Engine & Tank interface (HALMET)")
-		(date "2024-01-18")
-		(rev "1.0.1")
-		(company "Hat Labs Ltd")
-		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
-		(comment 2 "To view a copy of this license, visit ")
-		(comment 3 "HALMET is licensed under CC BY-SA 4.0.")
+		(title "Bluefin Marine Processor")
+		(date "2026-01-08")
+		(rev "1.0.0")
+		(company "Fifty One North Limited")
+		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0/")
+		(comment 2 "Bluefin is licensed under CC BY-SA 4.0")
+		(comment 3 "Modifications © 2026 Fiftyone North Ltd.")
+		(comment 4 "Based on an original design by Hat Labs Ltd.")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"

@@ -531,7 +531,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "HALMET.net",
-      "plot": "",
+      "plot": "assembly",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../HALMET-test-jig/hardware/Bluefin-device.step",
